@@ -5,7 +5,6 @@ import { Routes, Route} from 'react-router-dom';
 const Home = lazy(() => import('../pages/HomePage/HomePage'));
 const CarsPage = lazy(() => import('../pages/CarsPage/CarsPage'));
 const FavouritesPage = lazy(() => import('../pages/FavouritesPage/FavouritesPage'));
-const NotFoundPage = lazy(() => import('../pages/NotFoundPage/NotFoundPage'));
 const ContactUsPage = lazy(() => import('../pages/ContactUsPage/ContactUsPage'));
 
 
@@ -18,7 +17,7 @@ const Routers = () => {
       <Route path='/favourites' element={<FavouritesPage />} />    
       <Route path='/contact' element={<ContactUsPage />} />   
 
-        <Route path='*' element={<NotFoundPage />} />
+        <Route path='*' element={<Home  />} />
   </Routes>
 }
 
