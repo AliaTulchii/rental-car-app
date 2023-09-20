@@ -69,7 +69,7 @@ export const SliderContent = styled.div`
 `
 
 export const SliderTitle = styled.h1`
-    width: 700px;
+    width: 600px;
     // height: 264px;
     font-size: 68px;
     font-weight: 700;
