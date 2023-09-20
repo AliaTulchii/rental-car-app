@@ -14,9 +14,9 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-    <BrowserRouter >
+    <BrowserRouter basename="/rental-car-app">
       <App />
-        </BrowserRouter>
+        </BrowserRouter >
       </PersistGate>
       </Provider>
   </React.StrictMode>
