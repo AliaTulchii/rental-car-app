@@ -1,4 +1,4 @@
-import React, {  lazy } from 'react'
+import React, {  Suspense, lazy } from 'react'
 import { Routes, Route} from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ const Routers = () => {
       <Route path='/favourites' element={<FavouritesPage />} />    
       <Route path='/contact' element={<ContactUsPage />} />   
 
-        <Route path='*' element={<Home  />} />
+        <Route path='*' element={<Suspense><Home /></Suspense>} />
   </Routes>
 }
 
