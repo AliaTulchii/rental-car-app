@@ -32,20 +32,7 @@ height: 268px;
   margin-bottom: 14px;
   position: relative;
 `;
-// export const HeartBtn = styled.button`
-// position: absolute;
-// width: 24px;
-// height: 24px;
-// top: 14px;
-// right:14px;
-// border:none;
-// background: transparent;
-// color: white;
 
-// &:hover {
-//   cursor: pointer;
-// }
-// `
 export const Heart = styled.img`
 position: absolute;
 width: 24px;

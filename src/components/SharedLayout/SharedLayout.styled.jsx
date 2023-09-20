@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { theme } from 'styles';
 
 export const LayoutContainer = styled.div`
   min-width: 320px;
