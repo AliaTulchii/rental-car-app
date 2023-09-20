@@ -70,7 +70,6 @@ export const SliderContent = styled.div`
 
 export const SliderTitle = styled.h1`
     width: 600px;
-    // height: 264px;
     font-size: 68px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -82,7 +81,7 @@ color: rgba(18, 20, 23, 0.50);
 font-size: 32px;
 font-style: normal;
 font-weight: ${theme.fontWeight.regular};
-line-height: 18px;
+// line-height: 18px;
 margin-bottom: 50px;
 `
 
