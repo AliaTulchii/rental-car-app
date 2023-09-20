@@ -10,9 +10,7 @@ import {
   CarBodyText,
   CarText,
   CarButton,
-  HeartBtn,
   Heart,
-  OverFlow,
 } from './CarsItem.styled';
 import Modal from '../../Modal/Modal';
 // import {IoIosHeartEmpty} from 'react-icons/io'
@@ -28,23 +26,7 @@ import fav from '../../../images/fav.png'
 
 
 const CarsItem = ({
-  car,
-  // id,
-  // year,
-  // make,
-  // model,
-  // type,
-  // img,
-  // description,
-  // fuelConsumption,
-  // engineSize,
-  // accessories,
-  // functionalities,
-  // address,
-  // rentalPrice,
-  // rentalCompany,
-  // rentalConditions,
-  // mileage,
+  car
 }) => {
   const [openModal, setOpenModal] = useState(false)
   const favorites = useSelector(selectedFavorite)
